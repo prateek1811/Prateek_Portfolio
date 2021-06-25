@@ -9,6 +9,14 @@
 .navbar {
   background-color: #fff !important;
 }
+.image {
+  border-radius:50%;
+   width:50%;
+    height:50%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
 
 .navbar-brand {
   font-size: 1.9rem !important;
@@ -27,7 +35,8 @@
   border-bottom: 1px solid #565387;
 }
 .brand-name {
-  margin-left: 1%;
+  margin-left: 3px;
+  margin-right: 3px;
   color: #3498db !important;
 }
 .h1_font {
@@ -35,6 +44,7 @@
   align-content: center;
   justify-content: center;
   font-size: 1.9rem !important;
+  color: #536387 !important;
 }
 .h2_font {
   display: flex;
@@ -48,6 +58,11 @@
   justify-content: center;
  
   padding: 5px 10px 5px 10px;
+}
+.ui_icon {
+  width: 50px;
+  height: 50px;
+  margin-left: 10%;
 }
 
 @media (max-width: 991px) {
@@ -71,6 +86,11 @@
     justify-content: center;
     font-size: 0.9rem;
   }
+  .ui_icon {
+    width: 40px;
+    height: 40px;
+    margin-left: 20%;
+  }
 }
 @media (max-width: 400px) {
   .navbar-brand {
@@ -92,5 +112,10 @@
     align-content: center;
     justify-content: center;
     font-size: 0.7rem;
+  }
+  .ui_icon {
+    width: 25px;
+    height: 25px;
+    margin-left: 17%;
   }
 }
