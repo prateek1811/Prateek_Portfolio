@@ -16,7 +16,7 @@ const About = () => {
       <div className=" ml-3 mr-1">
         <div className="row">
           <div className="col">
-            <h1 className="h1_font">My Skill Sets-</h1>
+            <h1 className="h1_font mt-5">My Skill Sets-</h1>
            <ul>
                <li><h2 className="h2_font">2 years of hands on experiance in developing the React application.</h2></li>
                <li><h2 className="h2_font">Good knowledge on react design material like Material ui, Semantic ui etc. </h2></li>
