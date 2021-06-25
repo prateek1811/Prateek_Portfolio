@@ -24,10 +24,9 @@ const Home = () => {
                     <strong className="brand-name">Prateek Raj</strong>
                   </h1>
                   <h2 className="my-3 h2_font">
-                    A unique and talented web developer for making a website in
-                    react library A unique and talented web developer for making
-                    a website in react library A unique and talented web
-                    developer for making a website in react library
+                    A unique and talented web developer in making a website and web application on
+                    react library with having the experiance of more than 2 years in shipping domain. 
+                    Currently working under a world's largest shipping company known as Maersk.
                   </h2>
                   <div className="mt-3">
                     <NavLink to="/About" className=" want_to_know_more">
