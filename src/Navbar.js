@@ -5,12 +5,12 @@ const Navbar = () => {
   return (
     <>
       <div className="container-fluid nav_bg">
-        <div className="row">
+        <div className="row ">
           <div className="çol-10 max-auto">
-            <nav className="navbar navbar-expand-lg navbar-light bg-light">
+            <nav className="navbar navbar-expand-lg navbar-light">
               <div className="container-fluid">
                 <NavLink exact className="navbar-brand" to="/">
-                  Prateek Portfolio
+                  Prateek's Portfolio
                 </NavLink>
                 <button
                   className="navbar-toggler"
