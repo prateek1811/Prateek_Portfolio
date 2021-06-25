@@ -25,7 +25,7 @@ const Home = () => {
                   </h1>
                   <h2 className="my-3 h2_font">
                     A unique and talented web developer in making a website and web application on
-                    react library with having the experiance of more than 2 years in shipping domain. 
+                    react library with having a experiance of more than 2 years in shipping domain. 
                     Currently working under a world's largest shipping company known as Maersk.
                   </h2>
                   <div className="mt-3">
