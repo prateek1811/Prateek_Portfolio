@@ -1,12 +1,7 @@
 import React from "react";
 
-const Contact = () => {
 
-    const sendMail = () => {
-        const mailto =
-          "mailto:prtkraj03@gmail.com?subject=Test subject&body=Body content";
-        window.location.href = mailto;
-      }
+const Contact = () => {
 
   return (
     <>
@@ -81,7 +76,7 @@ const Contact = () => {
                         className="h3_font"
                         style={{ color: "white", marginLeft: "15%" }}
                       >
-                        <a target="_blank"  href="mailto:prtkraj03@gmail.com" onClick={sendMail} >prtkraj03@gmail.com</a>
+                        <a target="_top"  href="mailto:prtkraj03@gmail.com">prtkraj03@gmail.com</a>
                        
                                     </h3>
                     </div>
