@@ -1,8 +1,6 @@
 import React from "react";
 
-
 const Contact = () => {
-
   return (
     <>
       <section id="header">
@@ -76,9 +74,28 @@ const Contact = () => {
                         className="h3_font"
                         style={{ color: "white", marginLeft: "15%" }}
                       >
-                        <a target="_top"  href="mailto:prtkraj03@gmail.com">prtkraj03@gmail.com</a>
-                       
-                                    </h3>
+                        <a
+                          className="h3_font"
+                          target="_top"
+                          href="mailto:prtkraj03@gmail.com"
+                        >
+                          prtkraj03@gmail.com
+                        </a>
+                      </h3>
+                    </div>
+                    <div>
+                      <h3
+                        className="h3_font"
+                        style={{ color: "white", marginLeft: "15%" }}
+                      >
+                        <a
+                          className="h3_font"
+                          target="_top"
+                          href="tel:(+91)8409095004"
+                        >
+                          (+91)8409095004
+                        </a>
+                      </h3>
                     </div>
                   </div>
                 </div>
